@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(to right, #6e9aec, #d8e5f7);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: linear-gradient(to bottom right, #f1eded, #e6e9ef); /* Updated gradient */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: auto; /* Centers the container */
+    /* Added to ensure the container stands out over the body background */
+    position: relative; 
+    z-index: 10;
+}
+
+h2 {
+    color: #333;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #0056b3;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #003d82;
+}
+
+.alert-info {
+    background-color: #9dd0da;
+    border-color: #bee5eb;
+    color: #0c5460;
+}
