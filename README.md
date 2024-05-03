@@ -42,13 +42,7 @@ Navigate to the repository folder
 
 cd life-expectancy-calculator
 
-Install requirements
-
-pip install -r requirements.txt
-
-Run the application
-
-flask run
+run python app.py
 
 Open your web browser and visit http://127.0.0.1:5000/ to view the application.
 
